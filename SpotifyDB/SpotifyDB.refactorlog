@@ -7,4 +7,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="uri" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="0a3a44d8-b21a-41a1-9b72-c3e155f0cec7" ChangeDateTime="12/09/2021 20:55:26">
+    <Property Name="ElementName" Value="[dbo].[Library].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Library]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="371a2948-2147-4836-912f-05649f2ad506" ChangeDateTime="12/10/2021 20:20:06">
+    <Property Name="ElementName" Value="[dbo].[Library].[type]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Library]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="switch" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="14a39f43-fa48-471d-aaab-a2e874862c6f" ChangeDateTime="12/10/2021 21:34:42">
+    <Property Name="ElementName" Value="[dbo].[playlists].[lastmodified]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[playlists]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="last_modified" />
+  </Operation>
 </Operations>

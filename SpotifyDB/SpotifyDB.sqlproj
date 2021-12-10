@@ -59,6 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Library.sql" />
+    <Build Include="artists.sql" />
+    <Build Include="tracks.sql" />
+    <Build Include="albums.sql" />
+    <Build Include="playlists.sql" />
+    <Build Include="streaming_history.sql" />
+    <Build Include="podcasts.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SpotifyDB.refactorlog" />
